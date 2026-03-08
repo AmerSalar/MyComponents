@@ -1,4 +1,4 @@
-import MenuToggler from "./components/menu/menuToggler";
+import MenuToggler from "./components/menu/MenuToggler";
 import { useState } from "react";
 function App() {
   const [isMenu, setIsMenu] = useState(false);
