@@ -8,7 +8,7 @@ interface MenuTogglerProps {
 const MenuToggler: React.FC<MenuTogglerProps> = ({ menu, setMenu }) => {
   return (
     <IconButton
-      icon={menu ? <RiAppsLine /> : <RiAppsFill />}
+      icon={menu ? <RiAppsFill /> : <RiAppsLine />}
       onClick={() => setMenu((p) => !p)}
     />
   );
